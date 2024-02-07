@@ -27,8 +27,8 @@ Welcome to the Panoptic Segmentation assignment for the Computer Vision course! 
   * Use the pre-trained panoptic segmentation model for inference.
 * Video Processing:
   * Download the video from YouTube.
-  * Implement a script to process the video frames.
-  * Generate a side-by-side video with original and masked (predicted) frames.
+  * Implement a script to process the video frames. You can cut and use any part of the video that is at least 10 seconds long.
+  * Generate a side-by-side video with original and masked (predicted) frames. 
 * Evaluation:
   * The quality of the side-by-side video will be evaluated based on visual inspection.
  
@@ -38,6 +38,8 @@ Welcome to the Panoptic Segmentation assignment for the Computer Vision course! 
   * Refer to the MMDetection documentation for guidance on model inference.
 * Video Processing:
   * Explore video processing libraries (e.g., OpenCV) for efficient frame handling.
+  * You may want to downscale the original frames for the inference, but make sure to upscale masks after the inference.
+  * Also you may want to reduce FPS for the inference (e.g. to 24 frames per second), but don't forget to change it back. 
 
 ### Submission
 

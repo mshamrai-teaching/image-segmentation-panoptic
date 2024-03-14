@@ -43,7 +43,7 @@ Welcome to the Panoptic Segmentation assignment for the Computer Vision course! 
 
 ### Submission
 
-To submit your solution create pull request to the `main` branch.
+To submit your solution commit your files to the `main` branch. 
 
 Ensure your final submission includes:
 * Source code (video_masking_mmdetection.py or similar).
